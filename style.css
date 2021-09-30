@@ -1,0 +1,100 @@
+*{
+    padding : 0%;
+    margin : 0%;
+    font-family: Arial;
+}
+body{
+    background-color: hotpink;
+}
+.text {
+    background-color: black;
+    color: lightyellow;
+    border : 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding : 15px;
+}
+.choose{
+    padding : 250px 20px;
+}
+.choose li{
+    list-style-type: none;
+    text-align: center;
+    padding : 20px 10px;
+    
+}
+.choose li a{
+    text-decoration: none;
+    padding : 10px 50px;
+    color : yellow;
+    border : 1px solid yellow;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+.sgpa{
+    margin-right : 450px;
+    margin-left: 450px;
+    color : yellow;
+    border : 1px solid yellow;
+    border-radius: 10px;
+    background-color: black; 
+    padding : 5px 5px;
+    height : 550px;
+}
+.sgpa form table tr td{
+    padding : 7px 2px;
+    
+}
+.sgpa form table tr td input{
+    width : 210px;
+    padding : 5px 5px;
+}
+
+    .cgpa {
+        margin-right : 400px;
+        margin-left: 400px;
+        color : yellow;
+        border : 1px solid yellow;
+        border-radius: 10px;
+        background-color: black; 
+        padding : 5px 5px;
+        height : 580px;
+    }
+.cgpa input{
+    width : 250px;
+    padding : 5px 5px;
+}
+.cgpa p{
+    padding : 5px 5px;
+}
+
+
+.ho{
+    padding : 20px;
+}
+.ho a{
+    text-decoration: none;
+    padding : 10px;
+    color : yellow;
+    border : 1px solid yellow;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+
+.choose li a:hover{
+	background-color : yellow;
+	color: black;
+	border:1px solid black;
+    transition : 0.3s;
+}
+
+.ho a:hover{
+	background-color : yellow;
+	color: black;
+	border:1px solid black;
+    transition : 0.3s;
+}

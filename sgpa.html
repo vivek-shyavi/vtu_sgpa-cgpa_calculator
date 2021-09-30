@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+     <title>SGPA CALCULATOR</title>
+    </head>
+    <body>
+        
+            <div class= "text">
+                <h3>SGPA Calculator</h3>
+
+            </div>
+            <div class="ho">
+                <a href = "home.html">BACK TO HOME</a>
+                
+        
+             </div>
+        <div class = "sgpa">
+            <form action="sgpa.php" method="POST">
+            <table>
+                <tr>
+                  <th>SUBJECTS</th>
+                  <th>GRADE POINTS</th>
+                  <th>CREDIT OF PARTICULAR SUBJECTS</th>
+                </tr>
+                <tr>
+                  <td>SUBJECT 1</td>
+                  <td><input type="number" min="1" max="10" id="gp1" name="gp1"></td>
+                  <td><input type="number" min="1" max="4" id="cp1" name="cp1"></td>
+                </tr>
+                <tr>
+                    <td>SUBJECT 2</td>
+                    <td><input type="number" min="1" max="10" id="gp2" name="gp2"></td>
+                    <td><input type="number" min="1" max="4" id="cp2" name="cp2"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 3</td>
+                    <td><input type="number" min="1" max="10" id="gp3" name="gp3"></td>
+                    <td><input type="number" min="1" max="4" id="cp3" name="cp3"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 4</td>
+                    <td><input type="number" min="1" max="10" id="gp4" name="gp4"></td>
+                    <td><input type="number" min="1" max="4" id="cp4" name="cp4"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 5</td>
+                    <td><input type="number" min="1" max="10" id="gp5" name="gp5"></td>
+                    <td><input type="number" min="1" max="4" id="cp5" name="cp5"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 6</td>
+                    <td><input type="number" min="1" max="10" id="gp6" name="gp6"></td>
+                    <td><input type="number" min="1" max="4" id="cp6" name="cp6"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 7</td>
+                    <td><input type="number" min="1" max="10" id="gp7" name="gp7"></td>
+                    <td><input type="number" min="1" max="4" id="cp7" name="cp7"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 8</td>
+                    <td><input type="number" min="1" max="10" id="gp8" name="gp8"></td>
+                    <td><input type="number" min="1" max="4" id="cp8" name="cp8"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 9</td>
+                    <td><input type="number" min="1" max="10" id="gp9" name="gp9"></td>
+                    <td><input type="number" min="1" max="4" id="cp9" name="cp9"></td>
+                  </tr>
+                  <tr>
+                    <td>SUBJECT 10</td>
+                    <td><input type="number" min="1" max="10" id="gp10" name="gp10"></td>
+                    <td><input type="number" min="1" max="4" id="cp10" name="cp10"></td>
+                  </tr>
+              </table>
+              <p id="sgparesult"></p>
+              <button name="go">SAVE TO DATABASE</button>
+            </form>
+            <button onclick="sgpafunction()">GET SGPA</button>
+    </div>
+    <script src="jscript.js"></script>
+    </body>
+</html>
